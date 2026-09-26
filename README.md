@@ -2,7 +2,7 @@
 
 ## Data Science Module 1 Capstone
 
-![Casino Game Revenue Prediction Project Overview](images/casino_game_revenue_prediction_infographic.png)
+![Casino Game Revenue Prediction Project Overview](diagram.png)
 
 This project is an end-to-end regression analysis that explores whether machine, game, location, and operational characteristics can be used to predict monthly gaming revenue.
 
@@ -92,7 +92,7 @@ Three columns contained small amounts of missing data:
 - `avg_bet` — 14 missing values
 - `payout_rate` — 12 missing values
 
-![Missing Data Summary](images/01_missing_data_summary.png)
+![Missing Data Summary](01_missing_data_summary.png)
 
 The missing percentages were small, ranging from approximately **0.5% to 0.7%**.
 
@@ -102,7 +102,7 @@ Median imputation was selected because it preserves the observations while being
 
 ## Validation After Cleaning
 
-![Missing Values Cleaned](images/02_missing_values_cleaned.png)
+![Missing Values Cleaned](02_missing_values_cleaned.png)
 
 After median imputation, all three affected columns contained **zero missing values**.
 
@@ -125,7 +125,7 @@ The analysis focused on:
 
 ## Monthly Revenue Distribution
 
-![Monthly Revenue Distribution](images/03_monthly_revenue_distribution.png)
+![Monthly Revenue Distribution](03_monthly_revenue_distribution.png)
 
 Monthly revenue varies substantially across observations.
 
@@ -137,7 +137,7 @@ This variation makes monthly revenue an appropriate continuous target for regres
 
 ## Average Monthly Revenue by Game Type
 
-![Average Monthly Revenue by Game Type](images/04_average_revenue_by_game_type.png)
+![Average Monthly Revenue by Game Type](04_average_revenue_by_game_type.png)
 
 Average monthly revenue differs across game types.
 
@@ -149,7 +149,7 @@ This suggests that `game_type` may contain useful predictive information. Howeve
 
 ## Correlation Analysis
 
-![Revenue Correlations](images/05_revenue_correlations.png)
+![Revenue Correlations](05_revenue_correlations.png)
 
 Several numeric variables showed meaningful relationships with monthly revenue.
 
@@ -174,7 +174,7 @@ Correlation alone does not establish causation, and model performance must be ev
 
 ## Monthly Revenue vs. Days Active
 
-![Monthly Revenue vs Days Active](images/06_revenue_vs_days_active.png)
+![Monthly Revenue vs Days Active](06_revenue_vs_days_active.png)
 
 The scatterplot shows a visible positive relationship between the number of days a machine is active and monthly revenue.
 
